@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram />
++----------------+
+| dateType        |
++----------------+
+| - year: int     |
+| - month: int    |
+| - day: int      |
+| + dateType()    |
+| + dateType(int, int, int) |
+| + setYear(int) |
+| + setMonth(int) |
+| + setDay(int)   |
+| + getYear()     |
+| + getMonth()    |
+| + getDay()      |
+| + isLeapYear()  |
+| + daysInMonth() |
+| + print()       |
+| + daysPassed()  |
+| + daysRemaining() |
+| + setFutureDate(int) |
++----------------+
